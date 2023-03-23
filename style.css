@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/mario.jpg);
+}
+
+.results{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 50px;
+    width: 100%;
+}
+h2{
+    color:rgb(224, 19, 118);
+    font-size: 28px;
+    text-decoration: solid;
+}
+
+.card{
+    border: solid 2px rgb(224, 19, 118);
+    margin: 15px 35px 15px 15px;
+}
+
+#popup{
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(63, 54, 231);
+    display: none;
+    border: solid 5px rgb(224, 19, 118);
+    border-radius: 5px;
+}
+
